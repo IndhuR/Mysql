@@ -7,6 +7,6 @@ Query the two cities in STATION with the shortest and longest CITY names, as wel
 select city, length(city) from station
 order by length(city),city asc
 limit 1;
-selet city, length(city) from station
+select city, length(city) from station
 order by length(city) desc
 limit 1;
